@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+}
+
 #header {
     width: 100%;
     height: 56px;
 }
 
 .container {
-    border: 1px solid black;  
+    border: 1px solid black;
     min-width: 32px;
-    min-height: 32px;  
+    min-height: 32px;
     display: flex;
     align-items: flex-start;
 }
@@ -54,6 +58,15 @@
 .items {
     width: 100%;
     padding-bottom: 8px;
+}
+
+.items span {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+.items p {
+    color: darkslategray;
+    font-size: 13px;
 }
 
 .image {
