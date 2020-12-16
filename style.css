@@ -154,12 +154,38 @@ body {
 }
 
 @media (max-width: 950px) {
+    /* move secondary div to botttom */
     #main {
         flex-direction: column;
     }
 
     #secondary {
         margin-left: 24px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    /* reduce margin and padding and hide share and save buttons*/
+    #primary {
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    #player {
+        /* this size is temporary for testing*/
+        height: 240px;
+    }
+
+    #info,
+    #channel-info {
+        margin-left: 16px;
+        padding-right: 16px;
+    }
+
+    #share,
+    #save {
+        display: none;
     }
 
 }
