@@ -10,17 +10,58 @@
 }
 
 .container {
-    border: 1px solid black;    
+    border: 1px solid black;  
+    min-width: 32px;
+    min-height: 32px;  
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .horizontal {
     flex-direction: row;
-    padding: 0px 24px;
 }
 
 .vertical {
     flex-direction: column;
-    padding: 24px 0px;
+}
+
+#main {
+    width: 100%;
+}
+
+#primary {
+    flex: 2;
+    margin-left: 24px;
+    padding: 24px 24px 0px 0px;
+}
+#secondary {
+    flex: 1;
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+#video {
+    width: 640px;
+    height: 480px;
+
+}
+
+#player {
+    width: 100%;
+    flex: 1;
+}
+
+.items {
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.image {
+    width: 168px; 
+    height: 94px;
+    border: 1px solid black;
+}
+
+.items .text-container {
+    padding: 8px;
 }
