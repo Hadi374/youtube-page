@@ -93,7 +93,16 @@ body {
 
 #menu {
     align-items: center;
+    height: 48px;
 }
+
+
+#menu div {
+    padding-right: 16px;
+    color: gray;
+    font-weight: bold;
+}
+
 
 #channel-info {
     border-bottom: gray;
@@ -110,9 +119,14 @@ body {
 .right {
     margin-left: auto;
 }
+.center {
+    align-items: center;
+    justify-content: center;
+}
 
 .icon {
     color: gray;
+    padding: 6px;
 }
 
 #subscribe-button {
