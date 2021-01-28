@@ -111,6 +111,10 @@ body {
     margin-left: auto;
 }
 
+.icon {
+    color: gray;
+}
+
 #subscribe-button {
     background-color: #CC0000;
     color: #ffffff;
